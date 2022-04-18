@@ -1,0 +1,71 @@
+/* .header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.header a {
+    color: rgb(51, 50, 50);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(51, 50, 50);
+}
+.header a:hover {
+    color: rgb(185, 16, 38);
+    border-bottom: 2px solid rgb(185, 16, 38);
+} */
+.menu {
+    width: 30px;
+    height: 30px;
+}
+
+.header {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+li a {
+    color: rgb(51, 50, 50);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(51, 50, 50);
+}
+
+li a:hover {
+    color: rgb(199, 12, 37);
+    border-bottom: 2px solid rgb(199, 12, 37);
+}
+
+.active a {
+    color: white;
+    border-bottom: 2px solid rgb(199, 12, 37);
+    background-color: rgb(199, 12, 37);
+}
+
+.active a:hover {
+    color: white;
+    border-bottom: 2px solid rgb(199, 12, 37);
+    background-color: rgb(199, 12, 37);
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Elite",
+        "price": 999,
+        "desc": "Car transfer with air-con, Photoshoot in different locations, Creative staged pictures, 100 ready-to-print photographs, Toportfolio-level artistic post-editing with complex retouching, 100 Internet-format photographs, 9 hours of shooting",
+        "img": "./elite.jpg"
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Premium",
+        "price": 499,
+        "desc": "Car transfer with air-con, Photoshoot in different locations, 100 ready-to-print photographs, Toportfolio-level artistic post-editing with complex retouching, 100 Internet-format photographs, 9 hours of shooting",
+        "img": "./premium.jpg"
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Standard",
+        "price": 199,
+        "desc": "Photoshoot, 100 ready-to-print photographs, Artistic post-editing, 100 Internet-format photographs, 9 hours of shooting",
+        "img": "./standard.jpg"
+    }
+]
