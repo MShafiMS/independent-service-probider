@@ -3,6 +3,7 @@ import { Button, Form } from "react-bootstrap";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import auth from "../../firebase.init";
+import SocialLogin from "../SocialLogin/SocialLogin";
 import './Login.css'
 
 
@@ -33,7 +34,7 @@ const Login = () => {
     }
     return (
         <div className="container w-50 mx-auto">
-            <h2 className='text-primary text-center mt-2'>Login</h2>
+            <h2 className='text-center mt-2'>Login</h2>
             <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
@@ -47,12 +48,12 @@ const Login = () => {
                 <Form.Label>Password</Form.Label>
                 <Form.Control ref={passwordRef} type="password" placeholder="Password" required/>
             </Form.Group>
-            <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
+            <Button variant="outline-dark w-50 mx-auto d-block mb-2" type="submit">
                 Submit
             </Button>
-            <p>Need an account? <Link to="/register" className='text-primary pe-auto text-decoration-none'>Please Register</Link> </p>
+            <p>Need an account? <Link to="/register" className='pe-auto text-decoration-none'>Please Register</Link> </p>
             </Form>
-            <h6><span>or</span></h6>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
