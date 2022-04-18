@@ -49,7 +49,7 @@ const Login = () => {
                 <Form.Control ref={passwordRef} type="password" placeholder="Password" required/>
             </Form.Group>
             <Button variant="outline-dark w-50 mx-auto d-block mb-2" type="submit">
-                Submit
+                Login
             </Button>
             <p>Need an account? <Link to="/register" className='pe-auto text-decoration-none'>Please Register</Link> </p>
             </Form>

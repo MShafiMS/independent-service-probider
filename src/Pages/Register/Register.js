@@ -47,7 +47,7 @@ const Register = () => {
                 <Form.Control type="password" name='password' placeholder="Password" required/>
             </Form.Group>
             <Button variant="outline-dark w-50 mx-auto d-block mb-2" type="submit">
-                Submit
+                Register
             </Button>
             <p>Already have an account? <Link to="/login" className='pe-auto text-decoration-none'>Please Login</Link> </p>
             </Form>
